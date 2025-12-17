@@ -1,8 +1,8 @@
+import { HomeIcon, LogInIcon, PlusIcon } from 'lucide-react'
 import Link from 'next/link'
-import { HomeIcon, PlusIcon, LogInIcon } from 'lucide-react'
-import UserEmail from './UserEmail'
 import { Suspense } from 'react'
 import NavLink from './NavLink'
+import UserEmail from './UserEmail'
 
 export default function Navigation() {
   return (
@@ -12,7 +12,7 @@ export default function Navigation() {
           href="/"
           className="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-          <span className="hidden md:inline">Mode</span>
+          <span className="hidden md:inline">Issue Tracker</span>
           <span className="md:hidden">M</span>
         </Link>
       </div>
