@@ -3,9 +3,5 @@ export default function IssueLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  return (
-    <>
-      <div style={{ background: 'peru' }}>{children}</div>
-    </>
-  )
+  return <>{children}</>
 }
